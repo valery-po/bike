@@ -533,7 +533,7 @@ a {
 
 .products {
   padding: 40px 30px;
- /* padding-bottom: 0;*/
+
 }
 
 .container-product {
@@ -575,7 +575,6 @@ a {
 .card {
   position: relative;
   z-index: 3;
-  /*width: 396px;*/
   transition: transform 0.8s ease-in-out, box-shadow 0.8s ease-in-out;
 }
 
@@ -602,7 +601,6 @@ a {
   font-size: 14px;
   text-align: center;
   color: #FFF;
-  padding-top: 14px;
   width: 120px;
   line-height: 1;
   height: 40px;
@@ -611,7 +609,7 @@ a {
   font-weight: 800;
   text-decoration: none;
   transition: all 0.2s ease-in;
-  margin-bottom: 12px;
+  
 }
 
 .card__button:hover {
@@ -623,7 +621,6 @@ a {
 
 
 .card:hover {
- /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);*/
   transform: translateY(-5px);
   cursor: pointer;
   background: #ededed;
@@ -975,9 +972,10 @@ a {
 }
 
 .fade-block {
+/* position: fixed;*/
   opacity: 0;
   transition: opacity .2s ease-in-out;
-  position: fixed;
+  position: absolute;
   z-index: 0;
   top: 0;
   left: 0;

@@ -53,6 +53,12 @@
     margin-top: 43px;
   }
   
+  .products-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
   .footer {
     padding-top: 47px;
     padding-bottom: 75px;
